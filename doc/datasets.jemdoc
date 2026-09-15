@@ -1,6 +1,13 @@
 # jemdoc: menu{MENU}{datasets.html}, nofooter
 = 测试数据集
 
+== 多基因组比对与泛基因组数据集
+
+=== MGA-Dataset
+
+- [https://github.com/malabz/MGA-Dataset MGA-Dataset] 是课题组持续维护的多基因组比对（MGA）与泛基因组（Pangenome）数据资源导航库，汇总数据集说明、官方来源和下载入口，不直接存放数据文件。
+- 该资源按真实数据与模拟数据分类，当前覆盖人类、植物、真菌、跨类群基因组集合以及模拟基准集，并标注 T2T、Chromosome、Scaffold、Contig 等组装级别，便于根据研究对象和评测需求选择数据。
+
 == DNA/RNA真实数据集
 
 === Ancient human partial mitochondrial DNA
@@ -151,7 +158,7 @@
 
 - Ref: [https://doi.org/10.1093/molbev/msac166 HAlign 3]: Fast Multiple Alignment of Ultra-Large Numbers of Similar DNA/RNA Sequences.
 - Download: [http://lab.malab.cn/~tfr/HAlign3_testdata/sars_cov_2_like_diff_similarity.tar.xz sars\_cov\_2\_like\_diff\_similarity.tar.xz], [http://lab.malab.cn/~tfr/HAlign3_testdata/sars_cov_2_like_diff_treelength.tar.xz sars\_cov\_2\_like\_diff\_treelength.tar.xz], [http://lab.malab.cn/~tfr/HAlign3_testdata/mt_like_diff_similarity.tar.xz mt\_like\_diff\_similarity.tar.xz], [http://lab.malab.cn/~tfr/HAlign3_testdata/mt_like_diff_treelength.tar.xz mt\_like\_diff\_treelength.tar.xz]
-- [simu_datasets.html 使用IQTree和INDELible生成方法]
+- [simu_data.html 使用IQTree和INDELible生成方法]
 
 === Star-tree simulated datasets
 
@@ -204,4 +211,3 @@
 - 基于IQ-TREE3的AliSim模拟器构建，通过控制序列长度、叶子节点数、进化距离和替换模型等参数，生成不同难度与不同规模的模拟多序列比对数据。
 - 数据集覆盖从低分化到高分化、从小规模到大规模、从短序列到长序列的多种场景，适合测试多序列比对算法在复杂进化条件下的准确性、稳定性与可扩展性。
 - 下载: [http://lab.malab.cn/soft/msa_test_data/protein/iqtree_simulated.7z iqtree_simulated.7z]
-
